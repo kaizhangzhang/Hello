@@ -11,3 +11,6 @@ git diff --cached:显示已经暂存的
 git diff:
 git blame: 告诉你一个文件中每一行的修改者 eg: git blame -L 35, file.txt
 git branch [name]
+git checkout -m branch2 切换到分支2，并把当前分支变更合并到分支2
+
+###branch2的修改

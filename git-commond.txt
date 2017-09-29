@@ -3,3 +3,4 @@ git log
 git show 
 git show-branch --more=10
 git diff
+git revert

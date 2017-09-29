@@ -3,4 +3,4 @@ git log
 git show 
 git show-branch --more=10
 git diff
-git revert
+git revert 和 git reset  区别:http://yijiebuyi.com/blog/8f985d539566d0bf3b804df6be4e0c90.html

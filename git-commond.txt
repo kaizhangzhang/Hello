@@ -14,7 +14,7 @@ git revert: 用一次新的commit来回滚之前的commit
 git diff --cached:显示已经暂存的
 git diff:
 git diff commit1 commit2
-git diff HEAD^ HEAD 当前HEAD版本与前一个HEAD版本对比
+git diff HEAD^ HEAD 当前HEAD版本与前一个HEAD^版本对比
 git blame: 告诉你一个文件中每一行的修改者 eg: git blame -L 35, file.txt
 git branch [name]
 git branch -d

@@ -1,7 +1,9 @@
 ##git command
 git log
+git log -p master..newbranch 显示当前分支变更过程
 git show 
 git show-branch --more=10 修改记录
+git show-branch master newbranch 查看master上所有操作记录
 git show HEAD~2(最近第三次提交信息)
 git diff
 git revert 和 git reset  区别:http://yijiebuyi.com/blog/8f985d539566d0bf3b804df6be4e0c90.html

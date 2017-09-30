@@ -12,6 +12,7 @@ git reset:删除指定的commit,修改内容不会丢
 git reset --hard 回到某个版本原始状态，不关心后面的变更，新增内容丢失，
 git reset --hard HEAD 回到merge之前的版本，在执行合并后git commit之前
 git revert: 用一次新的commit来回滚之前的commit
+git cherry-pick master~1 指定提取当前分支引入master~1的提交内容
 git diff --cached:显示已经暂存的
 git diff:
 git diff commit1 commit2
@@ -21,3 +22,4 @@ git branch [name]
 git branch -d
 git checkout -m branch2 切换到分支2，并把当前分支变更合并到分支2git
 git merge newbranch 切换到master分支，合并newbranch
+

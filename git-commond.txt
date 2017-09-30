@@ -25,3 +25,5 @@ git rebase master newbranch 把newbranch分支移动到master分支头
 git stash
 git stash pop
 git show-branch stash
+
+

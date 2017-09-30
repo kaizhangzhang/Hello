@@ -1,6 +1,7 @@
 ##git command
 git log
 git log -p master..newbranch 显示当前分支变更过程
+git log --merge --left-right -p
 git show 
 git show-branch --more=10 修改记录
 git show-branch master newbranch 查看master上所有操作记录
@@ -17,6 +18,5 @@ git blame: 告诉你一个文件中每一行的修改者 eg: git blame -L 35, fi
 git branch [name]
 git branch -d
 git checkout -m branch2 切换到分支2，并把当前分支变更合并到分支2git
-冲突
-
+git merge newbranch 切换到master分支，合并newbranch
 

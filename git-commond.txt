@@ -27,4 +27,8 @@ git stash pop
 git show-branch stash
 
 
+<<<<<<< Updated upstream
 lelele
+=======
+lelele
+>>>>>>> Stashed changes

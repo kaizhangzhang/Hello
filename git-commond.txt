@@ -34,5 +34,12 @@ git stash pop #恢复你的工作目录状态，可能会有冲突
 git push
 ------------------------------------
 git reflog show 引用日志
+git clone
+git fetch
+git pull (跟git fetch类型，但是会合并修改)  
 
+------------------------------------
+新建的分支必须显示的用分支名推送
+git push origin branch
+------------------------------------
 

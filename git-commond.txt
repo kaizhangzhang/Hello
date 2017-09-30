@@ -9,6 +9,7 @@ git show HEAD~2(最近第三次提交信息)
 git diff
 git revert 和 git reset  区别:http://yijiebuyi.com/blog/8f985d539566d0bf3b804df6be4e0c90.html
 git reset:删除指定的commit  
+git reset --hard HEAD 回到merge之前的版本，在执行合并后git commit之前
 git revert: 用一次新的commit来回滚之前的commit
 git diff --cached:显示已经暂存的
 git diff:
@@ -21,3 +22,4 @@ git checkout -m branch2 切换到分支2，并把当前分支变更合并到分�
 git merge newbranch 切换到master分支，合并newbranch
 lalalal
 merge reset test
+woyaoresetl

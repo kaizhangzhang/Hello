@@ -36,10 +36,11 @@ git push
 git reflog show 引用日志
 git clone
 git fetch
-git pull (跟git fetch类型，但是会合并修改)  
+git pull (跟git fetch类型，但是会合并修改)  ==> git fetch; git merge
 
 ------------------------------------
 新建的分支必须显示的用分支名推送
 git push origin branch
 ------------------------------------
 
+git remote add origin branch 关联分支指回远程库，库名是origin(命名惯例而已)

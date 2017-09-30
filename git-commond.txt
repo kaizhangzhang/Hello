@@ -25,10 +25,14 @@ git rebase master newbranch 把newbranch分支移动到master分支头
 git stash
 git stash pop
 git show-branch stash
+git stash list
+------------------------------------
+一次完美的合并方式:
+git stash save 
+git pull --rebase #拉取上游变更，变基到上游的头
+git stash pop #恢复你的工作目录状态，可能会有冲突
+git push
+------------------------------------
+git reflog show 引用日志
 
 
-<<<<<<< Updated upstream
-lelele
-=======
-lelele
->>>>>>> Stashed changes
